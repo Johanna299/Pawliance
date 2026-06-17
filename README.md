@@ -161,10 +161,6 @@ My work included concept development, wireframing, visual design, TYPO3 sitepack
 
 ![Protected download area](docs/screenshots/download-area.png)
 
-### Animal of the Month
-
-![Animal of the Month content element](docs/screenshots/animal-of-the-month.png)
-
 ## Live Demo
 
 A live demo is currently hosted on a university subdomain:
