@@ -51,12 +51,54 @@ A central focus of the project was the implementation of a TYPO3 sitepackage bas
 ## Repository Structure
 
 ```text
-packages/                   TYPO3 sitepackage and project-specific files
-
-.gitignore                  Git ignore configuration
+packages/
+├── kwm2024/                 Base/practice package from the course
+└── projekt2024/             Custom TYPO3 sitepackage for the Pawliance website
 ```
 
-The repository contains the custom TYPO3 sitepackage for the project. The full TYPO3 installation, database and generated system files are not part of this repository.
+The main project work is located in `packages/projekt2024`.  
+The folder `kwm2024` was used as a course-related base/practice package and is not the main sitepackage.
+
+```text
+packages/projekt2024/
+├── Build/                   Build-related configuration and frontend tooling
+├── Classes/                 PHP classes for the TYPO3 extension
+├── Configuration/           TypoScript, TCA, Mask and extension configuration
+├── Resources/
+│   ├── Private/             Fluid templates, layouts, partials, language files
+│   │                         and Mask frontend templates
+│   └── Public/              Public frontend assets such as CSS, SCSS,
+│                             JavaScript, images, icons and fonts
+├── composer.json            Extension metadata and package configuration
+├── ext_emconf.php           TYPO3 extension configuration
+├── ext_localconf.php        Local TYPO3 extension configuration
+├── ext_tables.php           TYPO3 backend table configuration
+└── ext_tables.sql           Database table definitions
+```
+
+### Important Project Folders
+
+```text
+Resources/Private/
+├── Language/                Language files for multilingual content
+├── Layouts/                 Custom Fluid page layouts
+├── Mask/Frontend/Templates/ Custom templates for Mask content elements
+├── Partials/                Adapted Fluid partials, e.g. navigation and footer
+└── Templates/               Custom Fluid page templates
+```
+
+```text
+Resources/Public/
+├── Css/                     Compiled CSS files
+├── Fonts/                   Font files used in the frontend
+├── Icons/                   Icons used in the sitepackage
+├── Images/                  Website images and visual assets
+├── JavaScript/              JavaScript files, including the custom interaction
+└── Scss/Theme/              SCSS files for the custom Pawliance design
+```
+
+This repository contains the custom TYPO3 sitepackage for the project.  
+The complete TYPO3 installation, backend content and database are not part of this repository.
 
 ## Implemented TYPO3 Customizations
 
@@ -65,6 +107,8 @@ The repository contains the custom TYPO3 sitepackage for the project. The full T
 The project uses a custom TYPO3 sitepackage based on the Bootstrap Package. It includes custom TypoScript configuration, Fluid templates, layouts and partials.
 
 Several Bootstrap Package templates and partials were adapted to match the design concept, including changes to the navigation, footer, carousel layout and language menu.
+
+The main implementation is located in `packages/projekt2024`, which contains the custom sitepackage created for the Pawliance website.
 
 ### Custom Content Elements
 
