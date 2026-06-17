@@ -1,6 +1,6 @@
 # Pawliance – TYPO3 Animal Shelter Website
 
-Pawliance is a TYPO3 website for a fictional animal shelter focused on the care and adoption of animals such as dogs, cats and small pets. The project was developed as part of the course 'Content Management Systems' during my Bachelor’s degree in Communication, Knowledge & Media at University of Applied Sciences Upper Austria, Campus Hagenberg.
+Pawliance is a TYPO3 website for a fictional animal shelter focused on the care and adoption of animals such as dogs, cats and small pets. This project was developed in the 3rd semester of my Bachelor’s degree in Communication, Knowledge & Media at the University of Applied Sciences Upper Austria, Campus Hagenberg, as part of the course 'Content Management Systems'.
 
 The goal of the project was to design and implement a complete TYPO3 website from concept and wireframes to a custom sitepackage with templates, styling, custom content elements, extensions, forms, user areas and multilingual content.
 
